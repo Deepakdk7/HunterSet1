@@ -9,4 +9,7 @@ for i in b:
     if a.count(i)>1:
         c.append(i)
 c.sort()
-print(*c)
+if c==[]:
+    print('unique')
+else:
+    print(*c)
